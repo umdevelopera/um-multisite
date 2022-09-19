@@ -1,0 +1,22 @@
+.umms-form .umms-field {
+	margin-bottom: 0.5em;
+}
+.umms-form .umms-field label {
+	display: block;
+	margin-bottom: 0.3em;
+}
+
+.umms-notice {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 0.5em 0em;
+	padding: 0.3em 0.5em;
+}
+.umms-notice-error  {
+	border-color: #d63638;
+}
+.umms-notice-success {
+	border-color: #00a32a;
+}
