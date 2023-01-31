@@ -28,7 +28,15 @@ function um_set_common_upload_directory( $args ) {
 		$uploader->upload_user_basedir = $uploader->upload_basedir . $uploader->temp_upload_dir;
 	}
 
-	list( $uploader->upload_user_baseurl, $uploader->upload_user_basedir ) = apply_filters( 'um_change_upload_user_path', array( $uploader->upload_user_baseurl, $uploader->upload_user_basedir ), $uploader->field_key, $uploader->upload_type );
+	list( $uploader->upload_user_baseurl, $uploader->upload_user_basedir ) = apply_filters(
+		'um_change_upload_user_path',
+		array(
+			$uploader->upload_user_baseurl,
+			$uploader->upload_user_basedir
+		),
+		$uploader->field_key,
+		$uploader->upload_type
+	);
 
 	if ( $uploader->replace_upload_dir ) {
 		$args['path'] = $uploader->upload_user_basedir;
