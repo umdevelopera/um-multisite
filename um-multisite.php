@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Ultimate Member - Multisite
  * Description: Sync members between sites on multisite installation.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Ultimate Member support
  * Author URI:  https://ultimatemember.com/support/
  * Text Domain: um-multisite

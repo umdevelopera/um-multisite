@@ -7,8 +7,8 @@ The extension [Ultimate Member - Multisite](https://github.com/umdevelopera/um-m
 __Note:__ This is a free extension created for the community. The Ultimate Member team does not support this extension.
 
 ## Key features
-- The extension automatically adds users who are registering on the main site to all additional sites. Note: This does not work in reverse.
-- The directory for user uploads is changed. With this extension all sites use a common directory. So profile photos uploaded on one site will be used for all sites.
+- The extension automatically adds users who are registering on one site to all sites.
+- The directory for user uploads is changed. All sites use a common directory. Photos uploaded on one site are used for all sites.
 - The extension adds the "Multisite transfer users" widget to WordPress dashboard.
 
 ## Installation
@@ -25,7 +25,7 @@ You can install this plugin from the [ZIP archive](https://drive.google.com/file
 ## How to use
 Once the plugin is activated go to *wp-admin > Dashboard > Home*. You'll see the "Multisite transfer users" widget here. This widget contains two tools:
 - The first tool transfers users and their uploads (photos) from site to site in the network.
-- The second tool transfers users from the main site to all subsites and copies users uploads (photos) from sites to the common uploads directory.
+- The second tool transfers users from the main site to all sites and copies users uploads (photos) from sites to the common uploads directory.
 
 ### Screenshots:
 ![WP Dashboard + Multisite transfer users](https://user-images.githubusercontent.com/113178913/190995444-ba0da47f-2633-4e15-9c31-ee134ec9be6f.png)
